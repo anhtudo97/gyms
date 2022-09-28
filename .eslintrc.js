@@ -20,7 +20,9 @@ module.exports = {
     'react/state-in-constructor': 0,
     'import/prefer-default-export': 0,
     'max-len': [2, 550],
-
+    'operator-linebreak': ['error', 'after'],
+    indent: ['error', 2],
+    'implicit-arrow-linebreak': ['error', 'beside', 'below'],
     'no-multiple-empty-lines': [
       'error',
       {
